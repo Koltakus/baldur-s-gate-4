@@ -21,5 +21,11 @@ def player1_class_choice():
         print('Вы ввели несуществующий класс персонажа')
     return player1_class
 
-print(player1_class_choice())
+print(player1_name + ', ты выбрал класс' + player1_class_choice()+'.' + '\nТы уверен в своем выборе?')
 
+otvet = 0
+otvet = input()
+if otvet = '':
+    print()
+else:
+    print()
