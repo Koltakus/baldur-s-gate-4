@@ -1,4 +1,4 @@
-#import class from class_players
+
 
 print('Введите свое имя, Игорок 1')
 player1_name = input()
