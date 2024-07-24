@@ -1,5 +1,6 @@
+#import pytest
 import random
-
+#@pytest.mark.parametrize(('health_rogue', 'armor_rogue', 'ulta_rogue'))
 random_d8 = random.randint(1,8)
 health_bar = random_d8 * '❤'
 random_d12 = random.randint(1,12)
